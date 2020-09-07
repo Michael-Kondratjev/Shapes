@@ -1,6 +1,6 @@
-package by.epam.sphere.observer;
+package by.epam.sphere.observer.impl;
 
-import by.epam.sphere.entity.Sphere;
+import by.epam.sphere.entity.impl.Sphere;
 import by.epam.sphere.entity.SphereParameters;
 import by.epam.sphere.entity.SphereWarehouse;
 

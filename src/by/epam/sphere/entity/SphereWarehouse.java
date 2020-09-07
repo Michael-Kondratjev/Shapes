@@ -29,8 +29,8 @@ public class SphereWarehouse {
         return sphereParametersMap.remove(sphereId);
     }
 
-    public  SphereParameters replace(Long sphereId, SphereParameters sphereParam) {
-        return sphereParametersMap.replace(sphereId, sphereParam);
+    public void replace(Long sphereId, SphereParameters sphereParam) {
+        sphereParametersMap.replace(sphereId, sphereParam);
     }
 
     public static Map<Long, SphereParameters> getSphereParametersMap() {

@@ -1,2 +1,65 @@
-2020-09-04 00:26:34,533 ERROR b.e.s.p.LineParser [main] This line does not contain valid data to create a sphere.
-2020-09-04 00:58:49,067 ERROR b.e.s.p.LineParser [main] This line does not contain valid data to create a sphere.
+2020-09-07 20:00:52,220 INFO b.e.s.Log4j2ExampleApp [main] Log4j2ExampleApp started.
+2020-09-07 20:00:52,225 WARN b.e.s.Log4j2ExampleApp [main] Something to warn
+2020-09-07 20:00:52,226 ERROR b.e.s.Log4j2ExampleApp [main] Something failed.
+2020-09-07 20:00:52,227 ERROR b.e.s.Log4j2ExampleApp [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_241]
+	at java.nio.file.Files.readAllBytes(Files.java:3152) ~[?:1.8.0_241]
+	at by.epam.sphere.Log4j2ExampleApp.main(Log4j2ExampleApp.java:18) [classes/:?]
+2020-09-07 20:01:16,339 INFO b.e.s.Log4j2ExampleApp [main] Log4j2ExampleApp started.
+2020-09-07 20:01:16,345 WARN b.e.s.Log4j2ExampleApp [main] Something to warn
+2020-09-07 20:01:16,345 ERROR b.e.s.Log4j2ExampleApp [main] Something failed.
+2020-09-07 20:01:16,346 ERROR b.e.s.Log4j2ExampleApp [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_241]
+	at java.nio.file.Files.readAllBytes(Files.java:3152) ~[?:1.8.0_241]
+	at by.epam.sphere.Log4j2ExampleApp.main(Log4j2ExampleApp.java:18) [classes/:?]
+2020-09-07 20:02:56,158 INFO b.e.s.Log4j2ExampleApp [main] Log4j2ExampleApp started.
+2020-09-07 20:02:56,163 WARN b.e.s.Log4j2ExampleApp [main] Something to warn
+2020-09-07 20:02:56,163 ERROR b.e.s.Log4j2ExampleApp [main] Something failed.
+2020-09-07 20:02:56,165 ERROR b.e.s.Log4j2ExampleApp [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_241]
+	at java.nio.file.Files.readAllBytes(Files.java:3152) ~[?:1.8.0_241]
+	at by.epam.sphere.Log4j2ExampleApp.main(Log4j2ExampleApp.java:18) [classes/:?]
+2020-09-07 21:04:48,126 INFO b.e.s.Log4j2ExampleApp [main] Log4j2ExampleApp started.
+2020-09-07 21:04:48,130 WARN b.e.s.Log4j2ExampleApp [main] Something to warn
+2020-09-07 21:04:48,130 ERROR b.e.s.Log4j2ExampleApp [main] Something failed.
+2020-09-07 21:04:48,131 ERROR b.e.s.Log4j2ExampleApp [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_241]
+	at java.nio.file.Files.readAllBytes(Files.java:3152) ~[?:1.8.0_241]
+	at by.epam.sphere.Log4j2ExampleApp.main(Log4j2ExampleApp.java:18) [classes/:?]
+2020-09-07 21:06:22,279 INFO b.e.s.Log4j2ExampleApp [main] Log4j2ExampleApp started.
+2020-09-07 21:06:22,282 WARN b.e.s.Log4j2ExampleApp [main] Something to warn
+2020-09-07 21:06:22,283 ERROR b.e.s.Log4j2ExampleApp [main] Something failed.
+2020-09-07 21:06:22,284 ERROR b.e.s.Log4j2ExampleApp [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:79) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102) ~[?:1.8.0_241]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:230) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:361) ~[?:1.8.0_241]
+	at java.nio.file.Files.newByteChannel(Files.java:407) ~[?:1.8.0_241]
+	at java.nio.file.Files.readAllBytes(Files.java:3152) ~[?:1.8.0_241]
+	at by.epam.sphere.Log4j2ExampleApp.main(Log4j2ExampleApp.java:18) [classes/:?]

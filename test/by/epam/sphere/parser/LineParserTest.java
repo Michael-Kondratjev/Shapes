@@ -1,6 +1,6 @@
 package by.epam.sphere.parser;
 
-import by.epam.sphere.entity.Sphere;
+import by.epam.sphere.entity.impl.Sphere;
 import by.epam.sphere.exception.SphereException;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

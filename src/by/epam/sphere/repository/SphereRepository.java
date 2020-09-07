@@ -1,6 +1,6 @@
 package by.epam.sphere.repository;
 
-import by.epam.sphere.entity.Sphere;
+import by.epam.sphere.entity.impl.Sphere;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,15 +1,24 @@
-package by.epam.sphere.entity;
+package by.epam.sphere.entity.impl;
 
+import by.epam.sphere.entity.Observable;
+import by.epam.sphere.entity.Point;
+import by.epam.sphere.exception.SphereException;
 import by.epam.sphere.factory.PointFactory;
 import by.epam.sphere.generator.GeneratorId;
-import by.epam.sphere.observer.SphereObserver;
+import by.epam.sphere.observer.impl.SphereObserver;
+import by.epam.sphere.validator.Validator;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-public class Sphere  {
+public class Sphere implements Observable {
 
    public static final int FOUR_VALUES = 4;
    private long sphereId;
    private Point center;
    private double radius;
+
+    private static final Logger logger = LogManager.getLogger();
 
     public Sphere(double a, double b, double c, double r)  {
         center = PointFactory.createPoint(a, b, c);
@@ -45,9 +54,15 @@ public class Sphere  {
         notifyObserver();
     }
 
-    public void setRadius(double radius) {
-        this.radius = radius;
-        notifyObserver();
+    public void setRadius(double radius) throws SphereException {
+        if(Validator.validateRadius(radius)) {
+            this.radius = radius;
+            notifyObserver();
+        } else {
+            logger.log(Level.ERROR, "The radius of the sphere must be greater than zero.");
+            throw new SphereException("The radius of the sphere must be greater than zero.");
+        }
+
     }
 
     public void setX(double x) {
@@ -69,7 +84,8 @@ public class Sphere  {
     public double getRadius() { return radius;    }
     public long getId() { return sphereId;   }
 
-    private void notifyObserver(){
+    @Override
+     public void notifyObserver(){
         SphereObserver sphereObserver = new SphereObserver();
         sphereObserver.updateWarehouse(this);
     }

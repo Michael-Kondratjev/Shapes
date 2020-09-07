@@ -1,6 +1,6 @@
 package by.epam.sphere.comparator;
 
-import by.epam.sphere.entity.Sphere;
+import by.epam.sphere.entity.impl.Sphere;
 
 import java.util.Comparator;
 
@@ -35,8 +35,4 @@ public enum SphereComparator implements Comparator<Sphere> {
             return Double.compare(o1.getCenter().getZ(), o2.getCenter().getZ());
         }
     }
-
-
-
-
 }

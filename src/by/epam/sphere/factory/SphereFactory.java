@@ -1,7 +1,7 @@
 package by.epam.sphere.factory;
 
 import by.epam.sphere.entity.Point;
-import by.epam.sphere.entity.Sphere;
+import by.epam.sphere.entity.impl.Sphere;
 import by.epam.sphere.exception.SphereException;
 import by.epam.sphere.validator.Validator;
 import org.apache.logging.log4j.Level;
