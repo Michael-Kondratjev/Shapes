@@ -33,6 +33,4 @@ public class CalculationTest {
         expected = 523.59;
         Assert.assertEquals(expected, actual, 0.01);
     }
-
-
 }
